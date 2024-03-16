@@ -1,0 +1,192 @@
+{
+  "address": "0x6ad2CCBF6D0B64Cd9e477c489Cedb5DD9c2023Ae",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "deleteIPFSHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getIPFSHash",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getPostToSend",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "hashSet",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ipfsHash",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "postSent",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "postsToSendAvailable",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_ipfsHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "setIPFSHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x56cd43277fe7e0641fb2e1cb7dbf5472771eb9c53d90e4e3608eeec0366a7188",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x6ad2CCBF6D0B64Cd9e477c489Cedb5DD9c2023Ae",
+    "transactionIndex": 0,
+    "gasUsed": "234867",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xf5078a59beba9a1ab7c07b45d9502f9957e6bed234a2604a5130e2d535613659",
+    "transactionHash": "0x56cd43277fe7e0641fb2e1cb7dbf5472771eb9c53d90e4e3608eeec0366a7188",
+    "logs": [],
+    "blockNumber": 43781364,
+    "cumulativeGasUsed": "234867",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "e693b8987688a5afcec20e89f7afa1d4",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"deleteIPFSHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getIPFSHash\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getPostToSend\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"hashSet\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ipfsHash\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"postSent\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"postsToSendAvailable\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_ipfsHash\",\"type\":\"bytes32\"}],\"name\":\"setIPFSHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/gathering/Gathering.sol\":\"Gathering\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/gathering/Gathering.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ncontract Gathering {\\n    address public owner;\\n    bytes32 public ipfsHash;\\n    bool public hashSet;\\n\\n    constructor() {\\n        owner = msg.sender;\\n    }\\n\\n    modifier onlyOwner() {\\n        require(msg.sender == owner, \\\"Only owner can perform this action\\\");\\n        _;\\n    }\\n\\n    function setIPFSHash(bytes32 _ipfsHash) public onlyOwner {\\n        ipfsHash = _ipfsHash;\\n        hashSet = true;\\n    }\\n\\n    function deleteIPFSHash() public onlyOwner {\\n        require(hashSet, \\\"IPFS hash not set\\\");\\n        ipfsHash = 0;\\n        hashSet = false;\\n    }\\n\\n    function getIPFSHash() public view returns (bytes32) {\\n        return ipfsHash;\\n    }\\n\\n    function postsToSendAvailable() public view returns (bool) {\\n        return hashSet;\\n    }\\n\\n    function getPostToSend() public view returns (bytes32) {\\n        require(hashSet, \\\"IPFS hash not set\\\");\\n        return ipfsHash;\\n    }\\n\\n    function postSent() public {\\n        require(hashSet, \\\"IPFS hash not set\\\");\\n        // TODO: secure this so it's not fully public\\n        ipfsHash = 0;\\n        hashSet = false;\\n    }\\n}\",\"keccak256\":\"0xb82bf25fe5a683bb905edcc9a15c780312670dfc4dba8f884547dc7075d74f4a\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916331790556102e1806100326000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c806397973df41161006657806397973df4146100f7578063ac3a26b414610114578063c623674f1461011f578063e158581014610128578063f2f7b97d1461013057600080fd5b806320b28ade1461009857806362875b6d146100af57806381e7135f146100c45780638da5cb5b146100cc575b600080fd5b6001545b6040519081526020015b60405180910390f35b6100c26100bd366004610250565b610138565b005b6100c261017f565b6000546100df906001600160a01b031681565b6040516001600160a01b0390911681526020016100a6565b6002546101049060ff1681565b60405190151581526020016100a6565b60025460ff16610104565b61009c60015481565b6100c26101a9565b61009c610200565b6000546001600160a01b0316331461016b5760405162461bcd60e51b815260040161016290610269565b60405180910390fd5b60019081556002805460ff19169091179055565b6000546001600160a01b031633146101a95760405162461bcd60e51b815260040161016290610269565b60025460ff166101ef5760405162461bcd60e51b815260206004820152601160248201527012541194c81a185cda081b9bdd081cd95d607a1b6044820152606401610162565b60006001556002805460ff19169055565b60025460009060ff166102495760405162461bcd60e51b815260206004820152601160248201527012541194c81a185cda081b9bdd081cd95d607a1b6044820152606401610162565b5060015490565b60006020828403121561026257600080fd5b5035919050565b60208082526022908201527f4f6e6c79206f776e65722063616e20706572666f726d2074686973206163746960408201526137b760f11b60608201526080019056fea264697066735822122014725bfa824d6298edaa98a1a1f8ef901353db549f8cabe8e2e64d453578316c64736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c806397973df41161006657806397973df4146100f7578063ac3a26b414610114578063c623674f1461011f578063e158581014610128578063f2f7b97d1461013057600080fd5b806320b28ade1461009857806362875b6d146100af57806381e7135f146100c45780638da5cb5b146100cc575b600080fd5b6001545b6040519081526020015b60405180910390f35b6100c26100bd366004610250565b610138565b005b6100c261017f565b6000546100df906001600160a01b031681565b6040516001600160a01b0390911681526020016100a6565b6002546101049060ff1681565b60405190151581526020016100a6565b60025460ff16610104565b61009c60015481565b6100c26101a9565b61009c610200565b6000546001600160a01b0316331461016b5760405162461bcd60e51b815260040161016290610269565b60405180910390fd5b60019081556002805460ff19169091179055565b6000546001600160a01b031633146101a95760405162461bcd60e51b815260040161016290610269565b60025460ff166101ef5760405162461bcd60e51b815260206004820152601160248201527012541194c81a185cda081b9bdd081cd95d607a1b6044820152606401610162565b60006001556002805460ff19169055565b60025460009060ff166102495760405162461bcd60e51b815260206004820152601160248201527012541194c81a185cda081b9bdd081cd95d607a1b6044820152606401610162565b5060015490565b60006020828403121561026257600080fd5b5035919050565b60208082526022908201527f4f6e6c79206f776e65722063616e20706572666f726d2074686973206163746960408201526137b760f11b60608201526080019056fea264697066735822122014725bfa824d6298edaa98a1a1f8ef901353db549f8cabe8e2e64d453578316c64736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/gathering/Gathering.sol:Gathering",
+        "label": "owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5,
+        "contract": "contracts/gathering/Gathering.sol:Gathering",
+        "label": "ipfsHash",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_bytes32"
+      },
+      {
+        "astId": 7,
+        "contract": "contracts/gathering/Gathering.sol:Gathering",
+        "label": "hashSet",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_bytes32": {
+        "encoding": "inplace",
+        "label": "bytes32",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

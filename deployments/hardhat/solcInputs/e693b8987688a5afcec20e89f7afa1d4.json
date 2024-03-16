@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/gathering/Gathering.sol": {
+      "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\ncontract Gathering {\n    address public owner;\n    bytes32 public ipfsHash;\n    bool public hashSet;\n\n    constructor() {\n        owner = msg.sender;\n    }\n\n    modifier onlyOwner() {\n        require(msg.sender == owner, \"Only owner can perform this action\");\n        _;\n    }\n\n    function setIPFSHash(bytes32 _ipfsHash) public onlyOwner {\n        ipfsHash = _ipfsHash;\n        hashSet = true;\n    }\n\n    function deleteIPFSHash() public onlyOwner {\n        require(hashSet, \"IPFS hash not set\");\n        ipfsHash = 0;\n        hashSet = false;\n    }\n\n    function getIPFSHash() public view returns (bytes32) {\n        return ipfsHash;\n    }\n\n    function postsToSendAvailable() public view returns (bool) {\n        return hashSet;\n    }\n\n    function getPostToSend() public view returns (bytes32) {\n        require(hashSet, \"IPFS hash not set\");\n        return ipfsHash;\n    }\n\n    function postSent() public {\n        require(hashSet, \"IPFS hash not set\");\n        // TODO: secure this so it's not fully public\n        ipfsHash = 0;\n        hashSet = false;\n    }\n}"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
