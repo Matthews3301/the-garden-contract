@@ -2,7 +2,7 @@
 
 ```
 To deploy function on IPFS:
-yarn create-ipfs-hash:api-post
+yarn create-ipfs-hash:the-garden
 
 To compile contract:
 yarn compile-the-garden

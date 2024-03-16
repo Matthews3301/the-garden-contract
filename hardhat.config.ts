@@ -28,6 +28,7 @@ assert.ok(INFURA_ID, "no Infura ID in process.env");
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const ETHERSCAN_KEY = process.env.ETHERSCAN_KEY;
+const ETHERSCAN_KEY_BASE = process.env.ETHERSCAN_KEY_BASE;
 
 // ================================= CONFIG =========================================
 const config: HardhatUserConfig = {
@@ -41,6 +42,7 @@ const config: HardhatUserConfig = {
       "polygon",
       "hardhat",
       "mumbai",
+      "base",
     ], //(multiChainProvider) injects provider for these networks
   },
 
@@ -199,8 +201,37 @@ const config: HardhatUserConfig = {
       apiKey: {
         mainnet: ETHERSCAN_KEY,
         polygon: ETHERSCAN_KEY,
-      }
+        base: ETHERSCAN_KEY,
+      },
+      customChains: [
+        {
+          network: "base",
+          chainId: 8453,
+          urls: {
+            apiURL: "https://api-base.etherscan.io/api",
+            browserURL: "https://base.etherscan.io"
+          }
+        }
+      ]
     },
+  },
+
+  etherscan: {
+    apiKey: {
+      mainnet: ETHERSCAN_KEY,
+      polygon: ETHERSCAN_KEY,
+      base: ETHERSCAN_KEY_BASE,
+    },
+    customChains: [
+      {
+        network: "base",
+        chainId: 8453,
+        urls: {
+          apiURL: "https://api.basescan.org/api",
+          browserURL: "https://base.basescan.org"
+        }
+      }
+    ]
   },
 
   solidity: {

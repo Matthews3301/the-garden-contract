@@ -197,6 +197,7 @@ const config: HardhatUserConfig = {
       apiKey: {
         mainnet: ETHERSCAN_KEY,
         polygon: ETHERSCAN_KEY,
+        base: ETHERSCAN_KEY,
       }
     },
   },

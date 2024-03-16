@@ -1,0 +1,348 @@
+{
+  "address": "0x133A8bebD9FdAe820869c035Ec03eC6B6aA1D0Ce",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "acceptor",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "acceptorIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "AcceptorAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "acceptor",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "acceptorIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "AcceptorRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "ipfsHash",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "ipfsHashIndex",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "acceptor",
+          "type": "address"
+        }
+      ],
+      "name": "IpfsHashAccepted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "ipfsHash",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "ipfsHashIndex",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "proposer",
+          "type": "address"
+        }
+      ],
+      "name": "IpfsHashAdded",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_ipfsHashIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "acceptIpfsHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "acceptors",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "acceptorsCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_ipfsHash",
+          "type": "string"
+        }
+      ],
+      "name": "addIpfsHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ipfsHashCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "ipfsHashProposers",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "ipfsHashes",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_acceptorIndex",
+          "type": "uint256"
+        }
+      ],
+      "name": "removeAcceptor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xaa256065efe822aac5de8e10e41b0516e349295f232b00ac112f31c1ccffbb49",
+  "receipt": {
+    "to": null,
+    "from": "0x2EF6b7990d5D3E3e74Cdd518D59a3D51Ea9Ad264",
+    "contractAddress": "0x133A8bebD9FdAe820869c035Ec03eC6B6aA1D0Ce",
+    "transactionIndex": 26,
+    "gasUsed": "654177",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x22c78729b4bd5a754e7cc6e945c7b0f715fff0620971bb9ee43dc1edcbe7b0c9",
+    "transactionHash": "0xaa256065efe822aac5de8e10e41b0516e349295f232b00ac112f31c1ccffbb49",
+    "logs": [],
+    "blockNumber": 11912049,
+    "cumulativeGasUsed": "2855979",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "e391225e9cd5104a7f110fc7b16eee28",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"acceptor\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"acceptorIndex\",\"type\":\"uint256\"}],\"name\":\"AcceptorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"acceptor\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"acceptorIndex\",\"type\":\"uint256\"}],\"name\":\"AcceptorRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"ipfsHash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"ipfsHashIndex\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"acceptor\",\"type\":\"address\"}],\"name\":\"IpfsHashAccepted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"ipfsHash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"ipfsHashIndex\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"proposer\",\"type\":\"address\"}],\"name\":\"IpfsHashAdded\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_ipfsHashIndex\",\"type\":\"uint256\"}],\"name\":\"acceptIpfsHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"acceptors\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"acceptorsCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_ipfsHash\",\"type\":\"string\"}],\"name\":\"addIpfsHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ipfsHashCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"ipfsHashProposers\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"ipfsHashes\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_acceptorIndex\",\"type\":\"uint256\"}],\"name\":\"removeAcceptor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/the-garden/TheGarden.sol\":\"TheGarden\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/the-garden/TheGarden.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\npragma solidity >=0.8.9;\\n\\ncontract TheGarden {\\n  event IpfsHashAdded(string ipfsHash, uint256 ipfsHashIndex, address proposer);\\n  event IpfsHashAccepted(string ipfsHash, uint256 ipfsHashIndex, address acceptor);\\n  event AcceptorAdded(address acceptor, uint256 acceptorIndex);\\n  event AcceptorRemoved(address acceptor, uint256 acceptorIndex);\\n\\n\\n  address public owner;\\n\\n  uint256 public acceptorsCount;\\n  mapping(uint256 => address) public acceptors;\\n\\n  uint256 public ipfsHashCount;\\n  mapping(uint256 => string) public ipfsHashes;\\n  mapping(uint256 => address) public ipfsHashProposers;\\n\\n  constructor() {\\n    owner = msg.sender;\\n    acceptors[0] = msg.sender;\\n    acceptorsCount = 1;\\n    ipfsHashCount = 0;\\n  }\\n\\n  function _isAcceptor(address _address) private view returns (bool) {\\n    for (uint256 i = 0; i < acceptorsCount; i++) {\\n      if (acceptors[i] == _address) {\\n        return true;\\n      }\\n    }\\n    return false;\\n  } \\n\\n  modifier onlyAcceptors() {\\n    require(_isAcceptor(msg.sender), \\\"Only acceptors can perform this action\\\");\\n    _;\\n  }\\n\\n  modifier onlyOwner() {\\n    require(msg.sender == owner, \\\"Only owner can perform this action\\\");\\n    _;\\n  }\\n\\n  function addIpfsHash(string memory _ipfsHash) public {\\n    ipfsHashes[ipfsHashCount] = _ipfsHash;\\n    ipfsHashProposers[ipfsHashCount] = msg.sender;\\n    emit IpfsHashAdded(_ipfsHash, ipfsHashCount, msg.sender);\\n    ipfsHashCount += 1;\\n  }\\n\\n  function acceptIpfsHash(uint256 _ipfsHashIndex) public onlyAcceptors {\\n    require(\\n      msg.sender == owner || msg.sender != ipfsHashProposers[_ipfsHashIndex],\\n      \\\"Can't accept your own proposal\\\"\\n    );\\n\\n    emit IpfsHashAccepted(ipfsHashes[_ipfsHashIndex], _ipfsHashIndex, msg.sender);\\n\\n    if (!_isAcceptor(ipfsHashProposers[_ipfsHashIndex])) {\\n      acceptors[acceptorsCount] = ipfsHashProposers[_ipfsHashIndex];\\n      emit AcceptorAdded(ipfsHashProposers[_ipfsHashIndex], acceptorsCount);\\n      acceptorsCount += 1;\\n    }\\n  }\\n\\n  function removeAcceptor(uint256 _acceptorIndex) public onlyOwner {\\n    acceptors[_acceptorIndex] = address(0);\\n    emit AcceptorRemoved(acceptors[_acceptorIndex], _acceptorIndex);\\n  }\\n}\\n\",\"keccak256\":\"0xe6187590a2fa255eda62d04a275eaf4d169d451c9c4cbf69cef4a169b2c1647d\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b031990811633908117835582805260026020527fac33ff75c19e70fe83507db0d683fd3465c996598dc972688b7ace676c89077b80549092161790556001805560035561099b8061006e6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80639aadfdba116100665780639aadfdba14610119578063a4de2f5c14610130578063bc13b92114610150578063eacc628b14610179578063fe2509111461018c57600080fd5b8063205e148d146100985780632b3babb5146100ad57806341d26d90146100c05780638da5cb5b14610106575b600080fd5b6100ab6100a63660046105bd565b610195565b005b6100ab6100bb3660046105ec565b610381565b6100e96100ce3660046105bd565b6005602052600090815260409020546001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6000546100e9906001600160a01b031681565b61012260015481565b6040519081526020016100fd565b61014361013e3660046105bd565b610413565b6040516100fd91906106e3565b6100e961015e3660046105bd565b6002602052600090815260409020546001600160a01b031681565b6100ab6101873660046105bd565b6104ad565b61012260035481565b61019e3361056a565b6101fe5760405162461bcd60e51b815260206004820152602660248201527f4f6e6c79206163636570746f72732063616e20706572666f726d20746869732060448201526530b1ba34b7b760d11b60648201526084015b60405180910390fd5b6000546001600160a01b031633148061022e57506000818152600560205260409020546001600160a01b03163314155b61027a5760405162461bcd60e51b815260206004820152601e60248201527f43616e27742061636365707420796f7572206f776e2070726f706f73616c000060448201526064016101f5565b6000818152600460205260409081902090517fa0edfa386b964a59465fa1ea986755d2b2500e995b43f692ff7956546efee412916102bb9184903390610737565b60405180910390a16000818152600560205260409020546102e4906001600160a01b031661056a565b61037e57600081815260056020818152604080842080546001805487526002855283872080546001600160a01b0319166001600160a01b03938416179055958790529383525493548151949093168452908301919091527f87585121d41044b83ecec04d3783f04afd9a5b1d000c8e43d32e7ee4df58ed8b910160405180910390a1600180600082825461037891906107f1565b90915550505b50565b600354600090815260046020526040902061039c8282610859565b50600380546000908152600560205260409081902080546001600160a01b03191633908117909155915490517f21a39a96289ac84da9a543cb97f874a969dac708b23281ff78fc411234b6f03e926103f8928592909190610919565b60405180910390a160016003600082825461037891906107f1565b6004602052600090815260409020805461042c906106fd565b80601f0160208091040260200160405190810160405280929190818152602001828054610458906106fd565b80156104a55780601f1061047a576101008083540402835291602001916104a5565b820191906000526020600020905b81548152906001019060200180831161048857829003601f168201915b505050505081565b6000546001600160a01b031633146105125760405162461bcd60e51b815260206004820152602260248201527f4f6e6c79206f776e65722063616e20706572666f726d2074686973206163746960448201526137b760f11b60648201526084016101f5565b600081815260026020908152604080832080546001600160a01b031916905580519283529082018390527fb8cbfd5452f60f124d9a462c4ba9f4e32cedf5faebcb557e4a13d326d0266de0910160405180910390a150565b6000805b6001548110156105b4576000818152600260205260409020546001600160a01b038085169116036105a25750600192915050565b806105ac8161094c565b91505061056e565b50600092915050565b6000602082840312156105cf57600080fd5b5035919050565b634e487b7160e01b600052604160045260246000fd5b6000602082840312156105fe57600080fd5b813567ffffffffffffffff8082111561061657600080fd5b818401915084601f83011261062a57600080fd5b81358181111561063c5761063c6105d6565b604051601f8201601f19908116603f01168101908382118183101715610664576106646105d6565b8160405282815287602084870101111561067d57600080fd5b826020860160208301376000928101602001929092525095945050505050565b6000815180845260005b818110156106c3576020818501810151868301820152016106a7565b506000602082860101526020601f19601f83011685010191505092915050565b6020815260006106f6602083018461069d565b9392505050565b600181811c9082168061071157607f821691505b60208210810361073157634e487b7160e01b600052602260045260246000fd5b50919050565b606081526000808554610749816106fd565b806060860152608060018084166000811461076b5760018114610785576107b6565b60ff1985168884015283151560051b8801830195506107b6565b8a60005260208060002060005b868110156107ad5781548b8201870152908401908201610792565b8a018501975050505b5050505050602083018590526001600160a01b03841660408401529050949350505050565b634e487b7160e01b600052601160045260246000fd5b80820180821115610804576108046107db565b92915050565b601f82111561085457600081815260208120601f850160051c810160208610156108315750805b601f850160051c820191505b818110156108505782815560010161083d565b5050505b505050565b815167ffffffffffffffff811115610873576108736105d6565b6108878161088184546106fd565b8461080a565b602080601f8311600181146108bc57600084156108a45750858301515b600019600386901b1c1916600185901b178555610850565b600085815260208120601f198616915b828110156108eb578886015182559484019460019091019084016108cc565b50858210156109095787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b60608152600061092c606083018661069d565b6020830194909452506001600160a01b0391909116604090910152919050565b60006001820161095e5761095e6107db565b506001019056fea2646970667358221220396a65af1df40cd94912571ea2d0d5ddf8d322308515a601b09ef443b894647964736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c80639aadfdba116100665780639aadfdba14610119578063a4de2f5c14610130578063bc13b92114610150578063eacc628b14610179578063fe2509111461018c57600080fd5b8063205e148d146100985780632b3babb5146100ad57806341d26d90146100c05780638da5cb5b14610106575b600080fd5b6100ab6100a63660046105bd565b610195565b005b6100ab6100bb3660046105ec565b610381565b6100e96100ce3660046105bd565b6005602052600090815260409020546001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6000546100e9906001600160a01b031681565b61012260015481565b6040519081526020016100fd565b61014361013e3660046105bd565b610413565b6040516100fd91906106e3565b6100e961015e3660046105bd565b6002602052600090815260409020546001600160a01b031681565b6100ab6101873660046105bd565b6104ad565b61012260035481565b61019e3361056a565b6101fe5760405162461bcd60e51b815260206004820152602660248201527f4f6e6c79206163636570746f72732063616e20706572666f726d20746869732060448201526530b1ba34b7b760d11b60648201526084015b60405180910390fd5b6000546001600160a01b031633148061022e57506000818152600560205260409020546001600160a01b03163314155b61027a5760405162461bcd60e51b815260206004820152601e60248201527f43616e27742061636365707420796f7572206f776e2070726f706f73616c000060448201526064016101f5565b6000818152600460205260409081902090517fa0edfa386b964a59465fa1ea986755d2b2500e995b43f692ff7956546efee412916102bb9184903390610737565b60405180910390a16000818152600560205260409020546102e4906001600160a01b031661056a565b61037e57600081815260056020818152604080842080546001805487526002855283872080546001600160a01b0319166001600160a01b03938416179055958790529383525493548151949093168452908301919091527f87585121d41044b83ecec04d3783f04afd9a5b1d000c8e43d32e7ee4df58ed8b910160405180910390a1600180600082825461037891906107f1565b90915550505b50565b600354600090815260046020526040902061039c8282610859565b50600380546000908152600560205260409081902080546001600160a01b03191633908117909155915490517f21a39a96289ac84da9a543cb97f874a969dac708b23281ff78fc411234b6f03e926103f8928592909190610919565b60405180910390a160016003600082825461037891906107f1565b6004602052600090815260409020805461042c906106fd565b80601f0160208091040260200160405190810160405280929190818152602001828054610458906106fd565b80156104a55780601f1061047a576101008083540402835291602001916104a5565b820191906000526020600020905b81548152906001019060200180831161048857829003601f168201915b505050505081565b6000546001600160a01b031633146105125760405162461bcd60e51b815260206004820152602260248201527f4f6e6c79206f776e65722063616e20706572666f726d2074686973206163746960448201526137b760f11b60648201526084016101f5565b600081815260026020908152604080832080546001600160a01b031916905580519283529082018390527fb8cbfd5452f60f124d9a462c4ba9f4e32cedf5faebcb557e4a13d326d0266de0910160405180910390a150565b6000805b6001548110156105b4576000818152600260205260409020546001600160a01b038085169116036105a25750600192915050565b806105ac8161094c565b91505061056e565b50600092915050565b6000602082840312156105cf57600080fd5b5035919050565b634e487b7160e01b600052604160045260246000fd5b6000602082840312156105fe57600080fd5b813567ffffffffffffffff8082111561061657600080fd5b818401915084601f83011261062a57600080fd5b81358181111561063c5761063c6105d6565b604051601f8201601f19908116603f01168101908382118183101715610664576106646105d6565b8160405282815287602084870101111561067d57600080fd5b826020860160208301376000928101602001929092525095945050505050565b6000815180845260005b818110156106c3576020818501810151868301820152016106a7565b506000602082860101526020601f19601f83011685010191505092915050565b6020815260006106f6602083018461069d565b9392505050565b600181811c9082168061071157607f821691505b60208210810361073157634e487b7160e01b600052602260045260246000fd5b50919050565b606081526000808554610749816106fd565b806060860152608060018084166000811461076b5760018114610785576107b6565b60ff1985168884015283151560051b8801830195506107b6565b8a60005260208060002060005b868110156107ad5781548b8201870152908401908201610792565b8a018501975050505b5050505050602083018590526001600160a01b03841660408401529050949350505050565b634e487b7160e01b600052601160045260246000fd5b80820180821115610804576108046107db565b92915050565b601f82111561085457600081815260208120601f850160051c810160208610156108315750805b601f850160051c820191505b818110156108505782815560010161083d565b5050505b505050565b815167ffffffffffffffff811115610873576108736105d6565b6108878161088184546106fd565b8461080a565b602080601f8311600181146108bc57600084156108a45750858301515b600019600386901b1c1916600185901b178555610850565b600085815260208120601f198616915b828110156108eb578886015182559484019460019091019084016108cc565b50858210156109095787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b60608152600061092c606083018661069d565b6020830194909452506001600160a01b0391909116604090910152919050565b60006001820161095e5761095e6107db565b506001019056fea2646970667358221220396a65af1df40cd94912571ea2d0d5ddf8d322308515a601b09ef443b894647964736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 31,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 33,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "acceptorsCount",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 37,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "acceptors",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_uint256,t_address)"
+      },
+      {
+        "astId": 39,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "ipfsHashCount",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 43,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "ipfsHashes",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_mapping(t_uint256,t_string_storage)"
+      },
+      {
+        "astId": 47,
+        "contract": "contracts/the-garden/TheGarden.sol:TheGarden",
+        "label": "ipfsHashProposers",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_mapping(t_uint256,t_address)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_uint256,t_address)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => address)",
+        "numberOfBytes": "32",
+        "value": "t_address"
+      },
+      "t_mapping(t_uint256,t_string_storage)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => string)",
+        "numberOfBytes": "32",
+        "value": "t_string_storage"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

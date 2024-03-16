@@ -24,7 +24,10 @@ async function main() {
   });
   // Check Alchemy for nonce if stuck
 
-  config.etherscan.apiKey = { polygon: process.env.ETHERSCAN_KEY ?? '' }
+  config.etherscan.apiKey = {
+    polygon: process.env.ETHERSCAN_KEY ?? '',
+    base: process.env.ETHERSCAN_KEY ?? '',
+  }
   const address = deployment.address;
   console.log('TheGarden deployed to:', address)
 
