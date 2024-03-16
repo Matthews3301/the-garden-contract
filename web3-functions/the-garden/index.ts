@@ -39,6 +39,7 @@ Web3Function.onRun(async (context: Web3FunctionEventContext) => {
     hashContent = await ky
         // .get(`https://ipfs.io/ipfs/${ipfsHash}`, { timeout: 5_000, retry: 0 })
       .get(`https://gateway.lighthouse.storage/ipfs/${ipfsHash}`, { timeout: 5_000, retry: 0 })
+      .text();
   } catch (error) {
     return processError(`Error retrieving IPFS content: ${error}`);
   }
